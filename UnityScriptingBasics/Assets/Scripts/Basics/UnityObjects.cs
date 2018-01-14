@@ -52,7 +52,6 @@ public class UnityObjects : MonoBehaviour {
         BoxCollider boxB = cubo.GetComponent<BoxCollider>();
 
 
-
         // Agregar componentes
         Camera nuevaCamara = cubo.AddComponent<Camera>();
         nuevaCamara.backgroundColor = Color.green;

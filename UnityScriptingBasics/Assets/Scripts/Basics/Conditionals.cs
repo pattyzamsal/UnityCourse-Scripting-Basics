@@ -10,9 +10,10 @@ public class Conditionals : MonoBehaviour {
         // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/selection-statements
 
 
+        // Instruccion 1
 
         // Condicional IF
-        bool entrada = true;
+        bool entrada = false;
 
         // El procesador ejecuta las instrucciones dentro
         // del cuerpo del IF, si la instruccion dentro del 
@@ -20,11 +21,12 @@ public class Conditionals : MonoBehaviour {
         if(entrada == true) {
             print("Pude entrar");
         }
+        // Instruccion 5
 
 
 
         // Dejamos entrar a lorena al bar si es mayor de 18 años
-        int edadLorena = 19;
+        int edadLorena = 15;
         bool lorenaEsFeliz = false;
 
         if(edadLorena >= 18) {
@@ -39,7 +41,7 @@ public class Conditionals : MonoBehaviour {
 
         // Condicional IF ELSE
         // https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/if-else
-        bool tengoTicketVIP = false;
+        bool tengoTicketVIP = true;
 
         if(tengoTicketVIP == true) {
             print("El concierto es genial!");
@@ -47,6 +49,7 @@ public class Conditionals : MonoBehaviour {
         } else {
             print("Soy pobre... Nooo!!!");
         }
+        // Instruccion 6
 
 
 
