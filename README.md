@@ -1,2 +1,2 @@
-# UnityScriptingBasics
-Unity proyect to help teaching the scripting basics
+# UnityCourse: Scripting Basics
+Unity project used to teach about scripting basics, featuring a Solar System model
